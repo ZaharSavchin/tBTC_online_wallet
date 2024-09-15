@@ -1,9 +1,11 @@
+from configs import admin_id, bot
+
 import asyncio
 
 from aiogram import Dispatcher
 from aiogram.types import BotCommand
 
-from configs import admin_id, bot
+
 from handlers import user_handlers
 
 
